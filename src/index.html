@@ -4,24 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../dist/output.css" rel="stylesheet">
-  <title>Wonchan Kim </title>
+  <title>Wonchan Kim</title>
 </head>
 <body class="bg-gray-100 p-8">
-  <!-- Header Section Issue 2-->
-  <header class="flex justify-between items-center mb-8">
-    <div class="flex items-center">
-      <h1 class="text-2xl font-bold">Portfolio of Wonchan Kim</h1>
-      <p class="text-lg font-semibold mb-2">Front-end Developer</p>
-      <p class="text-gray-600">
-        I enjoy learning, sharing knowledge, and working with others to achieve a common goal.
-      </p>
-    </div>
+  <!-- Header Section with Fixed Position -->
+  <header class="flex justify-between items-center mb-8 p-4 bg-white shadow-md w-full fixed top-0 left-0">
+    <h1 class="text-lg font-semibold">Portfolio of Wonchan Kim</h1>
     <div class="flex space-x-4 text-gray-500">
       <a href="#" class="hover:text-black">Search</a>
       <a href="#" class="hover:text-black">Duplicate</a>
       <a href="#" class="hover:text-black">Share</a>
     </div>
   </header>
+
+  <!-- Adding margin to avoid content hiding under fixed header -->
+  <main class="flex justify-between items-start mt-24">
+    <div>
+      <h2 class="text-4xl font-bold mb-4">Portfolio of Wonchan Kim</h2>
+      <p class="text-xl font-semibold mb-2">Front-end Developer</p>
+      <p class="text-gray-600">
+        I enjoy sharing knowledge, adapting to environments, and creating a culture of communication within the team.
+      </p>
+    </div>
+    <div class="text-gray-700 space-y-2">
+      <p>📞 010-XXXX-XXXX</p>
+      <p>📧 wonchan.kim@example.com</p>
+      <p>🌐 <a href="#" class="hover:underline text-blue-600">https://wonchanportfolio.com</a></p>
+      <p>Git: <a href="#" class="hover:underline text-blue-600">https://github.com/wonchan</a></p>
+    </div>
   </main>
 </body>
 </html>
